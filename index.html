@@ -25,6 +25,7 @@
       import * as THREE from "three";
       import { OrbitControls } from "/js/OrbitControls.js";
       import { OBJLoader } from "/js/OBJLoader.js";
+      import { TGALoader } from "/js/TGALoader.js";
       // renderer
       const renderer = new THREE.WebGLRenderer();
       renderer.setSize(window.innerWidth, window.innerHeight);
@@ -42,21 +43,33 @@
       camera.position.y = 50;
       camera.position.z = 50;
       const controls = new OrbitControls(camera, renderer.domElement);
-      controls.target.set( 200, 0, 0 );
-			controls.update();
-			controls.enableDamping = true;
+      controls.target.set(200, 0, 0);
+      controls.update();
+      controls.enableDamping = true;
       // light
       const light = new THREE.PointLight();
       light.position.set(100, 100, 100);
       scene.add(light);
+      // material
+      const loader = new TGALoader();
+      const colourMap = loader.load("obj/CarvedTable_Albedo.tga");
+      const normalMap = loader.load("obj/CarvedTable_N.tga");
+      //const specularMap = loader.load("obj/CarvedTable_Spec.tga");
+      const material = new THREE.MeshPhongMaterial({
+        map: colourMap,
+        normalMap: normalMap,
+        //specularMap: specularMap
+      });
       // object
       const objLoader = new OBJLoader();
-      objLoader.load(
-        "obj/CarvedTable.obj",
-        function (object) {
-          scene.add(object);
-        }
-      );
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = material;
+          }
+        });
+        scene.add(object);
+      });
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
