@@ -81,6 +81,11 @@
         map: map,
         specularMap: specularMap,
       });
+      const meshBasicWireframeMaterial = new THREE.MeshBasicMaterial({
+        map: map,
+        specularMap: specularMap,
+        wireframe: true
+      });
       const meshDepthMaterial = new THREE.MeshDepthMaterial({
         map: map,
       });
@@ -143,6 +148,15 @@
           }
         });
         object.position.x += 100;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshBasicWireframeMaterial;
+          }
+        });
+        object.position.x += 200;
         scene.add(object);
       });
       objLoader.load("obj/CarvedTable.obj", function (object) {
