@@ -40,8 +40,9 @@
         0.1,
         10000
       );
-      camera.position.set(100, 75, 100);
+      camera.position.set(75, 75, 75);
       camera.lookAt(200, 0, 0);
+      camera.lookAt(0, 0, 0);
       // const controls = new OrbitControls(camera, renderer.domElement);
       // controls.target.set(200, 0, 0);
       // controls.update();
@@ -60,9 +61,6 @@
       document.addEventListener("keydown", keydown);
       document.addEventListener("keyup", keyup);
       // lights
-      const light1 = new THREE.PointLight();
-      light1.position.set(0, 200, 1000);
-      //scene.add(light1);
       const light2 = new THREE.PointLight();
       light2.position.set(2000, 200, 1000);
       scene.add(light2);
@@ -70,11 +68,14 @@
       light3.position.set(2000, 200, -1000);
       scene.add(light3);
       // textures
-      const loader = new TGALoader();
-      const map = loader.load("obj/CarvedTable_Albedo.tga");
-      const normalMap = loader.load("obj/CarvedTable_N.tga");
-      const specularMap = loader.load("obj/CarvedTable_Spec.tga");
-      const roughnessMap = loader.load("obj/CarvedTable_Gloss.tga");
+      const tgaLoader = new TGALoader();
+      const textureLoader = new THREE.TextureLoader();
+      const map = tgaLoader.load("obj/CarvedTable/CarvedTable_Albedo.tga");
+      const normalMap = tgaLoader.load("obj/CarvedTable/CarvedTable_N.tga");
+      const specularMap = tgaLoader.load("obj/CarvedTable/CarvedTable_Spec.tga");
+      const roughnessMap = tgaLoader.load("obj/CarvedTable/CarvedTable_Gloss.tga");
+      const treeMap = textureLoader.load("obj/Tree/Buzok_01_8mill_03_color_18_albedo_tsq.png");
+      const treeNormalMap = textureLoader.load("obj/Tree/Buzok_01_uv_dev8todev1_Comb_zbMMExport8_NM_tsq.png");
       // materials
       const lineBasicMaterial = new THREE.LineBasicMaterial({});
       const lineDashedMaterial = new THREE.LineDashedMaterial({});
@@ -122,7 +123,7 @@
       const meshStandardMaterial = new THREE.MeshStandardMaterial({
         map: map,
         normalMap: normalMap,
-        roughnessMap: roughnessMap,
+        roughnessMap: normalMap,
       });
       const meshToonMaterial = new THREE.MeshToonMaterial({
         map: map,
@@ -137,9 +138,13 @@
       const spriteMaterial = new THREE.SpriteMaterial({
         map: map,
       });
+      const treeMaterial = new THREE.MeshStandardMaterial({
+        map: treeMap,
+        normalMap: treeNormalMap,
+      });
       // object
       const objLoader = new OBJLoader();
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = lineBasicMaterial;
@@ -147,7 +152,7 @@
         });
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = lineDashedMaterial;
@@ -156,7 +161,7 @@
         object.position.x += 100;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshBasicWireframeMaterial;
@@ -165,7 +170,7 @@
         object.position.x += 200;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshBasicMaterial;
@@ -174,7 +179,7 @@
         object.position.x += 300;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshDepthMaterial;
@@ -183,7 +188,7 @@
         object.position.x += 400;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshDistanceMaterial;
@@ -192,7 +197,7 @@
         object.position.x += 500;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshLambertMaterial;
@@ -201,7 +206,7 @@
         object.position.x += 600;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = MeshMatcapMaterial;
@@ -210,7 +215,7 @@
         object.position.x += 700;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = MeshNormalMaterial;
@@ -219,7 +224,7 @@
         object.position.x += 800;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshPhongMaterial;
@@ -228,7 +233,7 @@
         object.position.x += 900;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshPhysicalMaterial;
@@ -237,16 +242,16 @@
         object.position.x += 1000;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshStandardMaterial;
           }
         });
-        object.position.x += 1100;
+        object.position.x = 1100;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = meshToonMaterial;
@@ -255,7 +260,7 @@
         object.position.x += 1200;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = pointsMaterial;
@@ -264,7 +269,7 @@
         object.position.x += 1300;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = shaderMaterial;
@@ -273,13 +278,22 @@
         object.position.x += 1500;
         scene.add(object);
       });
-      objLoader.load("obj/CarvedTable.obj", function (object) {
+      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material = shadowMaterial;
           }
         });
         object.position.x += 1600;
+        scene.add(object);
+      });
+      objLoader.load("obj/Tree/Buzok_01_uv_dev1_UVtex_bigfromZB_comb_01.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = treeMaterial;
+          }
+        });
+        object.scale.set( 10, 10, 10)
         scene.add(object);
       });
       // resizing
