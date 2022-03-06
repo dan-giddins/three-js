@@ -23,7 +23,8 @@
     </script>
     <script type="module">
       import * as THREE from "three";
-      import { OrbitControls } from "/js/OrbitControls.js";
+      // import { OrbitControls } from "/js/OrbitControls.js";
+      import { PointerLockControls } from "/js/PointerLockControls.js";
       import { OBJLoader } from "/js/OBJLoader.js";
       import { TGALoader } from "/js/TGALoader.js";
       // renderer
@@ -34,40 +35,231 @@
       const scene = new THREE.Scene();
       // camera
       const camera = new THREE.PerspectiveCamera(
-        90,
+        75,
         window.innerWidth / window.innerHeight,
         0.1,
-        1000
+        10000
       );
-      camera.position.x = 100;
-      camera.position.y = 50;
-      camera.position.z = 50;
-      const controls = new OrbitControls(camera, renderer.domElement);
-      controls.target.set(200, 0, 0);
-      controls.update();
-      controls.enableDamping = true;
-      // light
-      const light = new THREE.PointLight();
-      light.position.set(100, 100, 100);
-      scene.add(light);
-      // material
+      camera.position.set(100, 75, 100);
+      camera.lookAt(200, 0, 0);
+      // const controls = new OrbitControls(camera, renderer.domElement);
+      // controls.target.set(200, 0, 0);
+      // controls.update();
+      // controls.enableDamping = true;
+      // controls.zoomSpeed = 5;
+      // controls.panSpeed = 5;
+      const controls = new PointerLockControls(camera, renderer.domElement);
+      document.addEventListener("click", (e) => controls.lock());
+      let keys = [];
+      function keydown(e) {
+        keys[e.key] = true;
+      }
+      function keyup(e) {
+        keys[e.key] = false;
+      }
+      document.addEventListener("keydown", keydown);
+      document.addEventListener("keyup", keyup);
+      // lights
+      for (let x = 0; x < 2; x++) {
+        for (let z = 0; z < 2; z++) {
+          const light = new THREE.PointLight();
+          light.position.set(x * 2000, 200, z * 2000 - 1000);
+          scene.add(light);
+        }
+      }
+      // textures
       const loader = new TGALoader();
-      const colourMap = loader.load("obj/CarvedTable_Albedo.tga");
+      const map = loader.load("obj/CarvedTable_Albedo.tga");
       const normalMap = loader.load("obj/CarvedTable_N.tga");
-      //const specularMap = loader.load("obj/CarvedTable_Spec.tga");
-      const material = new THREE.MeshPhongMaterial({
-        map: colourMap,
+      const specularMap = loader.load("obj/CarvedTable_Spec.tga");
+      const roughnessMap = loader.load("obj/CarvedTable_Gloss.tga");
+      // materials
+      const lineBasicMaterial = new THREE.LineBasicMaterial({});
+      const lineDashedMaterial = new THREE.LineDashedMaterial({});
+      const material = new THREE.Material({});
+      const meshBasicMaterial = new THREE.MeshBasicMaterial({
+        map: map,
+        specularMap: specularMap,
+      });
+      const meshDepthMaterial = new THREE.MeshDepthMaterial({
+        map: map,
+      });
+      const meshDistanceMaterial = new THREE.MeshDistanceMaterial({
+        map: map,
+      });
+      const meshLambertMaterial = new THREE.MeshLambertMaterial({
+        map: map,
+        specularMap: specularMap,
+      });
+      const MeshMatcapMaterial = new THREE.MeshMatcapMaterial({
+        map: map,
         normalMap: normalMap,
-        //specularMap: specularMap
+      });
+      const MeshNormalMaterial = new THREE.MeshNormalMaterial({
+        normalMap: normalMap,
+      });
+      const meshPhongMaterial = new THREE.MeshPhongMaterial({
+        map: map,
+        normalMap: normalMap,
+        specularMap: specularMap,
+      });
+      const meshPhysicalMaterial = new THREE.MeshPhysicalMaterial({
+        map: map,
+        normalMap: normalMap,
+        roughnessMap: roughnessMap,
+      });
+      const meshStandardMaterial = new THREE.MeshStandardMaterial({
+        map: map,
+        normalMap: normalMap,
+        roughnessMap: roughnessMap,
+      });
+      const meshToonMaterial = new THREE.MeshToonMaterial({
+        map: map,
+        normalMap: normalMap,
+      });
+      const pointsMaterial = new THREE.PointsMaterial({
+        map: map,
+      });
+      const rawShaderMaterial = new THREE.RawShaderMaterial({});
+      const shaderMaterial = new THREE.ShaderMaterial({});
+      const shadowMaterial = new THREE.ShadowMaterial({});
+      const spriteMaterial = new THREE.SpriteMaterial({
+        map: map,
       });
       // object
       const objLoader = new OBJLoader();
       objLoader.load("obj/CarvedTable.obj", function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
-            child.material = material;
+            child.material = lineBasicMaterial;
           }
         });
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = lineDashedMaterial;
+          }
+        });
+        object.position.x += 100;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshBasicMaterial;
+          }
+        });
+        object.position.x += 300;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshDepthMaterial;
+          }
+        });
+        object.position.x += 400;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshDistanceMaterial;
+          }
+        });
+        object.position.x += 500;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshLambertMaterial;
+          }
+        });
+        object.position.x += 600;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = MeshMatcapMaterial;
+          }
+        });
+        object.position.x += 700;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = MeshNormalMaterial;
+          }
+        });
+        object.position.x += 800;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshPhongMaterial;
+          }
+        });
+        object.position.x += 900;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshPhysicalMaterial;
+          }
+        });
+        object.position.x += 1000;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshStandardMaterial;
+          }
+        });
+        object.position.x += 1100;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = meshToonMaterial;
+          }
+        });
+        object.position.x += 1200;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = pointsMaterial;
+          }
+        });
+        object.position.x += 1300;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = shaderMaterial;
+          }
+        });
+        object.position.x += 1500;
+        scene.add(object);
+      });
+      objLoader.load("obj/CarvedTable.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            child.material = shadowMaterial;
+          }
+        });
+        object.position.x += 1600;
         scene.add(object);
       });
       // resizing
@@ -77,9 +269,21 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
       };
       // animation
+      var lt = new Date();
       function animate() {
         requestAnimationFrame(animate);
-        controls.update();
+        if (keys["w"]) {
+          controls.moveForward(5);
+        }
+        if (keys["s"]) {
+          controls.moveForward(-5);
+        }
+        if (keys["a"]) {
+          controls.moveRight(-5);
+        }
+        if (keys["d"]) {
+          controls.moveRight(5);
+        }
         renderer.render(scene, camera);
       }
       animate();
