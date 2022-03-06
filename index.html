@@ -60,13 +60,15 @@
       document.addEventListener("keydown", keydown);
       document.addEventListener("keyup", keyup);
       // lights
-      for (let x = 0; x < 2; x++) {
-        for (let z = 0; z < 2; z++) {
-          const light = new THREE.PointLight();
-          light.position.set(x * 2000, 200, z * 2000 - 1000);
-          scene.add(light);
-        }
-      }
+      const light1 = new THREE.PointLight();
+      light1.position.set(0, 200, 1000);
+      //scene.add(light1);
+      const light2 = new THREE.PointLight();
+      light2.position.set(2000, 200, 1000);
+      scene.add(light2);
+      const light3 = new THREE.PointLight();
+      light3.position.set(2000, 200, -1000);
+      scene.add(light3);
       // textures
       const loader = new TGALoader();
       const map = loader.load("obj/CarvedTable_Albedo.tga");
@@ -107,6 +109,10 @@
         map: map,
         normalMap: normalMap,
         specularMap: specularMap,
+      });
+      const meshPhongNoSpecMaterial = new THREE.MeshPhongMaterial({
+        map: map,
+        normalMap: normalMap
       });
       const meshPhysicalMaterial = new THREE.MeshPhysicalMaterial({
         map: map,
