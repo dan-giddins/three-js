@@ -169,13 +169,7 @@
       //   //aoMap: logOcclusionMap,
       // });
       //const sphTubeMaterial = mtlLoader.load("obj/SphTube/SphTube.mtl");
-      var sphTubeMaterial;
-      mtlLoader.load(
-        "obj/SphTube/SphTube.mtl",
-        (materials) => {
-          sphTubeMaterial = materials;
-        }
-      );
+      //var sphTubeMaterial;
       // object
       const objLoader = new OBJLoader();
       objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
@@ -347,18 +341,32 @@
       //     scene.add(object);
       //   }
       // );
-      //objLoader.setMaterials(sphTubeMaterial);
-      objLoader.load("obj/SphTube/SphTube.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = sphTubeMaterial;
-          }
-        });
-        object.scale.set(10, 10, 10);
-        object.position.x += 50;
-        //object.position.y += 50;
-        scene.add(object);
-      });
+      // objLoader.setMaterials(sphTubeMaterial);
+      // objLoader.load("obj/SphTube/SphTube.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       //child.material = sphTubeMaterial;
+      //     }
+      //   });
+      //   object.scale.set(10, 10, 10);
+      //   object.position.x += 50;
+      //   //object.position.y += 50;
+      //   scene.add(object);
+      // });
+      mtlLoader.load(
+        "obj/SphTube/SphTube.mtl",
+        (materials) => {
+          materials.preload();
+          //sphTubeMaterial = materials;
+          objLoader.setMaterials(materials);
+          objLoader.load("obj/SphTube/SphTube.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            object.position.x += 50;
+            //object.position.y += 50;
+            scene.add(object);
+          });
+        }
+      );
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
