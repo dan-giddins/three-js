@@ -27,6 +27,7 @@
       import { PointerLockControls } from "/js/PointerLockControls.js";
       import { OBJLoader } from "/js/OBJLoader.js";
       import { TGALoader } from "/js/TGALoader.js";
+      import { MTLLoader } from "/js/MTLLoader.js";
       // renderer
       const renderer = new THREE.WebGLRenderer();
       renderer.setSize(window.innerWidth, window.innerHeight);
@@ -87,14 +88,15 @@
       const treeNormalMap = textureLoader.load(
         "obj/Tree/Buzok_01_uv_dev8todev1_Comb_zbMMExport8_NM_tsq.png"
       );
-      //const logMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_baseTexBaked.png");
-      //const logCavityMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_cavity.png");
-      //const logHeightMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_heights.png");
-      const logNormalMap = textureLoader.load(
-        "obj/Log/Log_on_the_beach_scan_21_51K_normals.png"
-      );
+      // //const logMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_baseTexBaked.png");
+      // //const logCavityMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_cavity.png");
+      // //const logHeightMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_heights.png");
+      // const logNormalMap = textureLoader.load(
+      //   "obj/Log/Log_on_the_beach_scan_21_51K_normals.png"
+      // );
       //const logOcclusionMap = textureLoader.load("obj/Log/Log_on_the_beach_scan_21_51K_occlusion.png");
       // materials
+      const mtlLoader = new MTLLoader();
       const lineBasicMaterial = new THREE.LineBasicMaterial({});
       const lineDashedMaterial = new THREE.LineDashedMaterial({});
       const material = new THREE.Material({});
@@ -160,12 +162,20 @@
         map: treeMap,
         normalMap: treeNormalMap,
       });
-      const logMaterial = new THREE.MeshStandardMaterial({
-        //map: logMap,
-        normalMap: logNormalMap,
-        //displacementMap: logHeightMap,
-        //aoMap: logOcclusionMap,
-      });
+      // const logMaterial = new THREE.MeshStandardMaterial({
+      //   //map: logMap,
+      //   normalMap: logNormalMap,
+      //   //displacementMap: logHeightMap,
+      //   //aoMap: logOcclusionMap,
+      // });
+      //const sphTubeMaterial = mtlLoader.load("obj/SphTube/SphTube.mtl");
+      var sphTubeMaterial;
+      mtlLoader.load(
+        "obj/SphTube/SphTube.mtl",
+        (materials) => {
+          sphTubeMaterial = materials;
+        }
+      );
       // object
       const objLoader = new OBJLoader();
       objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
@@ -323,20 +333,32 @@
           scene.add(object);
         }
       );
-      objLoader.load(
-        "obj/Log/Log_on_the_beach_scan_21_.obj",
-        function (object) {
-          object.traverse(function (child) {
-            if (child instanceof THREE.Mesh) {
-              child.material = logMaterial;
-            }
-          });
-          object.scale.set(0.1, 0.1, 0.1);
-          object.position.x -= 400;
-          //object.position.y += 50;
-          scene.add(object);
-        }
-      );
+      // objLoader.load(
+      //   "obj/Log/Log_on_the_beach_scan_21_.obj",
+      //   function (object) {
+      //     object.traverse(function (child) {
+      //       if (child instanceof THREE.Mesh) {
+      //         child.material = logMaterial;
+      //       }
+      //     });
+      //     object.scale.set(0.1, 0.1, 0.1);
+      //     object.position.x -= 400;
+      //     //object.position.y += 50;
+      //     scene.add(object);
+      //   }
+      // );
+      //objLoader.setMaterials(sphTubeMaterial);
+      objLoader.load("obj/SphTube/SphTube.obj", function (object) {
+        object.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            //child.material = sphTubeMaterial;
+          }
+        });
+        object.scale.set(10, 10, 10);
+        object.position.x += 50;
+        //object.position.y += 50;
+        scene.add(object);
+      });
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
