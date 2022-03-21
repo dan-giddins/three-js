@@ -1,0 +1,17 @@
+# Apple ModelI/O MTL File: Dan.mtl
+
+newmtl material_1
+	Kd 1 1 1
+	d 1
+	map_Kd Brick wall.jpg
+	
+newmtl material_2
+	Kd 1 1 1
+	d 1
+	map_Kd Brick wall.jpg
+	
+newmtl material_3
+	Kd 1 1 1
+	d 1
+	map_Kd Brick wall.jpg
+

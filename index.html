@@ -354,14 +354,27 @@
       //   scene.add(object);
       // });
       mtlLoader.load(
-        "obj/SphTube/SphTube.mtl",
+        "obj/SphTube/SphTube-dad.mtl",
         (materials) => {
           materials.preload();
-          //sphTubeMaterial = materials;
           objLoader.setMaterials(materials);
           objLoader.load("obj/SphTube/SphTube.obj", function (object) {
             object.scale.set(10, 10, 10);
             object.position.x += 50;
+            //object.position.y += 50;
+            scene.add(object);
+          });
+        }
+      );
+      const objLoader2 = new OBJLoader();
+      mtlLoader.load(
+        "obj/Dan/Dan.mtl",
+        (materials) => {
+          materials.preload();
+          objLoader2.setMaterials(materials);
+          objLoader2.load("obj/Dan/Dan.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            object.position.x -= 300;
             //object.position.y += 50;
             scene.add(object);
           });
