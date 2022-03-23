@@ -3,15 +3,15 @@
 newmtl material_1
 	Kd 1 1 1
 	d 1
-	map_Kd Brick wall.jpg
+	map_Kd -s 0.25 1 1 Brick wall.jpg
 	
 newmtl material_2
 	Kd 1 1 1
 	d 1
-	map_Kd Brick wall.jpg
+	map_Kd map_Kd -s 0.25 1 1 Brick wall.jpg
 	
 newmtl material_3
 	Kd 1 1 1
 	d 1
-	map_Kd Brick wall.jpg
+	map_Kd map_Kd -s 0.25 1 1 Brick wall.jpg
 
