@@ -1,0 +1,17 @@
+# 3DCanvas MMCG MTL File: T12.mtl
+
+# Object 0 - Wall face
+newmtl material_1
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 Brickwall.jpg
+
+# Object 1 - Wall face
+newmtl material_2
+	Kd 0.000000 0.976805 0.000000
+	map_Kd -s 1.000000 1.000000 1 Brickwall.jpg
+
+# Object 2 - Wall face
+newmtl material_3
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.333333 0.500000 1 Brickwall.jpg
+

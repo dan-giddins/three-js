@@ -34,6 +34,7 @@
       document.body.appendChild(renderer.domElement);
       // scence
       const scene = new THREE.Scene();
+      scene.background = new THREE.Color(0xffffff);
       // camera
       const camera = new THREE.PerspectiveCamera(
         75,
@@ -366,16 +367,31 @@
           });
         }
       );
-      const objLoader2 = new OBJLoader();
+      const danObjLoader = new OBJLoader();
       mtlLoader.load(
         "obj/Dan/Dan.mtl",
         (materials) => {
           materials.preload();
-          objLoader2.setMaterials(materials);
-          objLoader2.load("obj/Dan/Dan.obj", function (object) {
+          danObjLoader.setMaterials(materials);
+          danObjLoader.load("obj/Dan/Dan.obj", function (object) {
             object.scale.set(10, 10, 10);
             object.position.x -= 300;
             //object.position.y += 50;
+            scene.add(object);
+          });
+        }
+      );
+      const t12ObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/T12/T12.mtl",
+        (materials) => {
+          materials.preload();
+          t12ObjLoader.setMaterials(materials);
+          t12ObjLoader.load("obj/T12/T12.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            object.position.z += 100;
             scene.add(object);
           });
         }
