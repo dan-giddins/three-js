@@ -1,0 +1,18 @@
+# 3DCanvas MMCG MTL File: TextOnly.mtl
+
+# Object 0 - Text
+newmtl material_1
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 5.000000 1.000000 1 Brickwall.jpg
+	d 1.000000
+
+newmtl material_2
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 5.000000 1.000000 1 Brickwall.jpg
+	d 1.000000
+
+newmtl material_3
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 5.000000 1.000000 1 Brickwall.jpg
+	d 1.000000
+

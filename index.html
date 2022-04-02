@@ -443,6 +443,21 @@
           });
         }
       );
+      const textOnlyObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/TextOnly/TextOnly.mtl",
+        (materials) => {
+          materials.preload();
+          textOnlyObjLoader.setMaterials(materials);
+          textOnlyObjLoader.load("obj/TextOnly/TextOnly.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            object.position.z += 400;
+            scene.add(object);
+          });
+        }
+      );
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
