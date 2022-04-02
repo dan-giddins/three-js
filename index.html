@@ -42,8 +42,8 @@
         0.1,
         10000
       );
-      camera.position.set(75, 75, 75);
-      camera.lookAt(200, 0, 0);
+      camera.position.set(200, 75, 600);
+      camera.lookAt(0, 0, 300);
       camera.lookAt(0, 0, 0);
       // const controls = new OrbitControls(camera, renderer.domElement);
       // controls.target.set(200, 0, 0);
@@ -398,17 +398,47 @@
           });
         }
       );
-      const ttObjLoader = new OBJLoader();
+      // const ttObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT/TT.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     //ttObjLoader.setMaterials(materials);
+      //     ttObjLoader.load("obj/TT/TT.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 200;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const tt2ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT2/TT2.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     //tt2ObjLoader.setMaterials(materials);
+      //     tt2ObjLoader.load("obj/TT2/TT2.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 200;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const tt3ObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/TT/TT.mtl",
+        "obj/TT3/TT3.mtl",
         (materials) => {
           materials.preload();
-          //ttObjLoader.setMaterials(materials);
-          ttObjLoader.load("obj/TT/TT.obj", function (object) {
+          tt3ObjLoader.setMaterials(materials);
+          tt3ObjLoader.load("obj/TT3/TT3.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
-            object.position.z += 200;
+            object.position.z += 300;
             scene.add(object);
           });
         }
