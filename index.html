@@ -34,7 +34,7 @@
       document.body.appendChild(renderer.domElement);
       // scence
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x808080);
+      scene.background = new THREE.Color(0x202020);
       // camera
       const camera = new THREE.PerspectiveCamera(
         75,
@@ -403,7 +403,7 @@
         "obj/TT/TT.mtl",
         (materials) => {
           materials.preload();
-          ttObjLoader.setMaterials(materials);
+          //ttObjLoader.setMaterials(materials);
           ttObjLoader.load("obj/TT/TT.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
