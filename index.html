@@ -428,13 +428,28 @@
       //     });
       //   }
       // );
-      const tt3ObjLoader = new OBJLoader();
+      // const tt3ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT3/TT3.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     tt3ObjLoader.setMaterials(materials);
+      //     tt3ObjLoader.load("obj/TT3/TT3.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 300;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const tt5ObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/TT3/TT3.mtl",
+        "obj/TT5/TT5.mtl",
         (materials) => {
           materials.preload();
-          tt3ObjLoader.setMaterials(materials);
-          tt3ObjLoader.load("obj/TT3/TT3.obj", function (object) {
+          tt5ObjLoader.setMaterials(materials);
+          tt5ObjLoader.load("obj/TT5/TT5.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
@@ -443,21 +458,21 @@
           });
         }
       );
-      const textOnlyObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/TextOnly/TextOnly.mtl",
-        (materials) => {
-          materials.preload();
-          textOnlyObjLoader.setMaterials(materials);
-          textOnlyObjLoader.load("obj/TextOnly/TextOnly.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            //object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 400;
-            scene.add(object);
-          });
-        }
-      );
+      // const textOnlyObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TextOnly/TextOnly.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     textOnlyObjLoader.setMaterials(materials);
+      //     textOnlyObjLoader.load("obj/TextOnly/TextOnly.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
