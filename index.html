@@ -413,26 +413,26 @@
       //     });
       //   }
       // );
-      const tt2ObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/TT2/TT2.mtl",
-        (materials) => {
-          //materials.preload();
-          tt2ObjLoader.setMaterials(materials);
-          tt2ObjLoader.load("obj/TT2/TT2.obj", function (object) {
-            object.traverse( function ( child ) {
-                if ( child instanceof THREE.Mesh ) {
-                    child.material = new THREE.MeshBasicMaterial();
-                }
-            } );
-            object.scale.set(10, 10, 10);
-            //object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 200;
-            scene.add(object);
-          });
-        }
-      );
+      // const tt2ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT2/TT2.mtl",
+      //   (materials) => {
+      //     //materials.preload();
+      //     tt2ObjLoader.setMaterials(materials);
+      //     tt2ObjLoader.load("obj/TT2/TT2.obj", function (object) {
+      //       object.traverse( function ( child ) {
+      //           if ( child instanceof THREE.Mesh ) {
+      //               child.material = new THREE.MeshBasicMaterial();
+      //           }
+      //       } );
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 200;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
       // const tt3ObjLoader = new OBJLoader();
       // mtlLoader.load(
       //   "obj/TT3/TT3.mtl",
@@ -478,6 +478,21 @@
       //     });
       //   }
       // );
+      const twoTextObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/TwoText/TwoText.mtl",
+        (materials) => {
+          materials.preload();
+          twoTextObjLoader.setMaterials(materials);
+          twoTextObjLoader.load("obj/TwoText/TwoText.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            object.position.z += 400;
+            scene.add(object);
+          });
+        }
+      );
       // resizing
       window.onresize = function () {
         camera.aspect = window.innerWidth / window.innerHeight;
