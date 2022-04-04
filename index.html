@@ -448,21 +448,21 @@
       //     });
       //   }
       // );
-      const tt5ObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/TT5/TT5.mtl",
-        (materials) => {
-          materials.preload();
-          tt5ObjLoader.setMaterials(materials);
-          tt5ObjLoader.load("obj/TT5/TT5.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            //object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 300;
-            scene.add(object);
-          });
-        }
-      );
+      // const tt5ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT5/TT5.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     tt5ObjLoader.setMaterials(materials);
+      //     tt5ObjLoader.load("obj/TT5/TT5.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 300;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
       // const textOnlyObjLoader = new OBJLoader();
       // mtlLoader.load(
       //   "obj/TextOnly/TextOnly.mtl",
@@ -489,6 +489,21 @@
             //object.position.x -= 300;
             //object.position.y += 50;
             object.position.z += 500;
+            scene.add(object);
+          });
+        }
+      );
+      const twoText2ObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/TwoText2/TwoText2.mtl",
+        (materials) => {
+          materials.preload();
+          twoText2ObjLoader.setMaterials(materials);
+          twoText2ObjLoader.load("obj/TwoText2/TwoText2.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            object.position.z += 600;
             scene.add(object);
           });
         }
