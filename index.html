@@ -478,32 +478,62 @@
       //     });
       //   }
       // );
-      const twoTextObjLoader = new OBJLoader();
+      // const twoTextObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TwoText/TwoText.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     twoTextObjLoader.setMaterials(materials);
+      //     twoTextObjLoader.load("obj/TwoText/TwoText.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 500;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const twoText2ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TwoText2/TwoText2.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     twoText2ObjLoader.setMaterials(materials);
+      //     twoText2ObjLoader.load("obj/TwoText2/TwoText2.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 600;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const twoText3ObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/TwoText/TwoText.mtl",
+        "obj/TwoText3/TwoText3.mtl",
         (materials) => {
           materials.preload();
-          twoTextObjLoader.setMaterials(materials);
-          twoTextObjLoader.load("obj/TwoText/TwoText.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            //object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 500;
-            scene.add(object);
-          });
-        }
-      );
-      const twoText2ObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/TwoText2/TwoText2.mtl",
-        (materials) => {
-          materials.preload();
-          twoText2ObjLoader.setMaterials(materials);
-          twoText2ObjLoader.load("obj/TwoText2/TwoText2.obj", function (object) {
+          twoText3ObjLoader.setMaterials(materials);
+          twoText3ObjLoader.load("obj/TwoText3/TwoText3.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
             object.position.z += 600;
+            scene.add(object);
+          });
+        }
+      );
+      const tt7ObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/TT7/TT7.mtl",
+        (materials) => {
+          materials.preload();
+          tt7ObjLoader.setMaterials(materials);
+          tt7ObjLoader.load("obj/TT7/TT7.obj", function (object) {
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            object.position.z += 400;
             scene.add(object);
           });
         }
