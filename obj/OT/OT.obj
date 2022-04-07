@@ -1,0 +1,30 @@
+# 3DCanvas MMCG OBJ File: OT.obj
+mtllib OT.mtl
+# Wall face
+g 
+v -22.575 -6.45 0
+v -3.225 -6.45 0
+v -3.225 6.45 0
+v -22.575 6.45 0
+vn 0 0 1
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+usemtl material_1
+f 1/1/1 2/2/1 3/3/1
+f 1/1/1 3/3/1 4/4/1
+# Wall face
+g 
+v 3.225 -6.45 0
+v 22.575 -6.45 0
+v 22.575 6.45 0
+v 3.225 6.45 0
+vn 0 0 1
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+usemtl material_2
+f 5/5/2 6/6/2 7/7/2
+f 5/5/2 7/7/2 8/8/2

@@ -508,28 +508,58 @@
       //     });
       //   }
       // );
-      const twoText3ObjLoader = new OBJLoader();
+      // const twoText3ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TwoText3/TwoText3.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     twoText3ObjLoader.setMaterials(materials);
+      //     twoText3ObjLoader.load("obj/TwoText3/TwoText3.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 600;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const tt7ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/TT7/TT7.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     tt7ObjLoader.setMaterials(materials);
+      //     tt7ObjLoader.load("obj/TT7/TT7.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const sObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/S/S.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     sObjLoader.setMaterials(materials);
+      //     sObjLoader.load("obj/S/S.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const otObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/TwoText3/TwoText3.mtl",
+        "obj/OT/OT.mtl",
         (materials) => {
           materials.preload();
-          twoText3ObjLoader.setMaterials(materials);
-          twoText3ObjLoader.load("obj/TwoText3/TwoText3.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            //object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 600;
-            scene.add(object);
-          });
-        }
-      );
-      const tt7ObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/TT7/TT7.mtl",
-        (materials) => {
-          materials.preload();
-          tt7ObjLoader.setMaterials(materials);
-          tt7ObjLoader.load("obj/TT7/TT7.obj", function (object) {
+          otObjLoader.setMaterials(materials);
+          otObjLoader.load("obj/OT/OT.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;

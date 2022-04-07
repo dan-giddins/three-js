@@ -1,0 +1,14 @@
+# 3DCanvas MMCG MTL File: OT.mtl
+
+# Object 0 - Wall face
+newmtl material_1
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 Squares.png
+	d 1.000000
+
+# Object 1 - Wall face
+newmtl material_2
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.250000 0.250000 0 Squares.png
+	d 1.000000
+
