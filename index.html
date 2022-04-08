@@ -568,13 +568,28 @@
       //     });
       //   }
       // );
-      const sotObjLoader = new OBJLoader();
+      // const sotObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/SOT/SOT.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     sotObjLoader.setMaterials(materials);
+      //     sotObjLoader.load("obj/SOT/SOT.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const sot2ObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/SOT/SOT.mtl",
+        "obj/SOT2/SOT2.mtl",
         (materials) => {
           materials.preload();
-          sotObjLoader.setMaterials(materials);
-          sotObjLoader.load("obj/SOT/SOT.obj", function (object) {
+          sot2ObjLoader.setMaterials(materials);
+          sot2ObjLoader.load("obj/SOT2/SOT2.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
