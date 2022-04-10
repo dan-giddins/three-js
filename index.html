@@ -583,13 +583,28 @@
       //     });
       //   }
       // );
-      const sot2ObjLoader = new OBJLoader();
+      // const sot2ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/SOT2/SOT2.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     sot2ObjLoader.setMaterials(materials);
+      //     sot2ObjLoader.load("obj/SOT2/SOT2.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const wallAlignObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/SOT2/SOT2.mtl",
+        "obj/WallAlign/WallAlign.mtl",
         (materials) => {
           materials.preload();
-          sot2ObjLoader.setMaterials(materials);
-          sot2ObjLoader.load("obj/SOT2/SOT2.obj", function (object) {
+          wallAlignObjLoader.setMaterials(materials);
+          wallAlignObjLoader.load("obj/WallAlign/WallAlign.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
