@@ -34,7 +34,7 @@
       document.body.appendChild(renderer.domElement);
       // scence
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x808080);
+      scene.background = new THREE.Color(0x404040);
       // camera
       const camera = new THREE.PerspectiveCamera(
         75,
@@ -598,13 +598,28 @@
       //     });
       //   }
       // );
-      const wallAlignObjLoader = new OBJLoader();
+      // const wallAlignObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/WallAlign/WallAlign.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     wallAlignObjLoader.setMaterials(materials);
+      //     wallAlignObjLoader.load("obj/WallAlign/WallAlign.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const sphRotObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/WallAlign/WallAlign.mtl",
+        "obj/SphRot/SphRot.mtl",
         (materials) => {
           materials.preload();
-          wallAlignObjLoader.setMaterials(materials);
-          wallAlignObjLoader.load("obj/WallAlign/WallAlign.obj", function (object) {
+          sphRotObjLoader.setMaterials(materials);
+          sphRotObjLoader.load("obj/SphRot/SphRot.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
@@ -635,7 +650,7 @@
         if (keys["d"]) {
           controls.moveRight(5);
         }
-        const radius = 10000;
+        const radius = 100000;
         const slowness = 10000;
         var xPos =
           Math.sin(((Date.now() % slowness) / slowness) * Math.PI * 2) * radius;
