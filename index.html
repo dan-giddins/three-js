@@ -69,7 +69,8 @@
       //const light3 = new THREE.PointLight();
       //light3.position.set(2000, 200, -1000);
       //scene.add(light3);
-      const light4 = new THREE.PointLight();
+      //const light4 = new THREE.PointLight();
+      const light4 = new THREE.DirectionalLight( 0xffffff, 1 );
       light4.position.set(0, 0, 1000);
       scene.add(light4);
       const ambientLight = new THREE.AmbientLight( 0x404040 );
@@ -650,7 +651,7 @@
         if (keys["d"]) {
           controls.moveRight(5);
         }
-        const radius = 100000;
+        const radius = 1000000;
         const slowness = 10000;
         var xPos =
           Math.sin(((Date.now() % slowness) / slowness) * Math.PI * 2) * radius;
