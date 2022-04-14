@@ -3,14 +3,14 @@
 # Object 0 - Sphere
 newmtl material_1
 	Kd 1.000000 1.000000 1.000000
-	Ns 1000
-	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 earth_flat_map.jpg
+	Ns 0
+	#map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 Brickwall.jpg
 	d 1.000000
 
 # Object 1 - Sphere
 newmtl material_2
 	Kd 1.000000 1.000000 1.000000
-	Ns 1000
-	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 earth_flat_map.jpg
+	Ns 0
+	#map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 Brickwall.jpg
 	d 1.000000
 
