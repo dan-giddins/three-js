@@ -1,0 +1,2633 @@
+# 3DCanvas MMCG MTL File: House_112.mtl
+
+# Object 1 - Cylinder
+newmtl material_1
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -1315032644448111122448384.000000 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 2 - Cylinder
+newmtl material_2
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -1315032644448111122448384.000000 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 3 - Wall face
+newmtl material_3
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LowWindow.png
+	d 1.000000
+
+# Object 4 - Wall face
+newmtl material_4
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LowWindow.png
+	d 1.000000
+
+# Object 5 - Wall face
+newmtl material_5
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LowWindow.png
+	d 1.000000
+
+# Object 6 - Wall face
+newmtl material_6
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LowWindow.png
+	d 1.000000
+
+# Object 7 - Wall face
+newmtl material_7
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LowWindow.png
+	d 1.000000
+
+# Object 8 - Cylinder
+newmtl material_8
+	Kd 0.865727 0.869262 0.879867
+	d 1.000000
+
+# Object 9 - Cylinder
+newmtl material_9
+	Kd 0.179597 0.180330 0.182530
+	d 1.000000
+
+# Object 10 - Cone
+newmtl material_10
+	Kd 0.080129 0.080129 0.080129
+	d 1.000000
+
+# Object 11 - Cylinder
+newmtl material_11
+	Kd 0.865727 0.869262 0.879867
+	d 1.000000
+
+# Object 12 - Wall face
+newmtl material_12
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
+	d 1.000000
+
+# Object 13 - Wall face
+newmtl material_13
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
+	d 1.000000
+
+# Object 14 - Wall face
+newmtl material_14
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
+	d 1.000000
+
+# Object 15 - Wall face
+newmtl material_15
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
+	d 1.000000
+
+# Object 16 - Wall face
+newmtl material_16
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
+	d 1.000000
+
+# Object 17 - Wall face
+newmtl material_17
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_BargeFront.png
+	d 0.000000
+
+# Object 18 - Block
+newmtl material_18
+	Kd 0.897592 0.907910 0.907910
+	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
+	d 1.000000
+
+newmtl material_19
+	Kd 0.897592 0.907910 0.907910
+	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
+	d 1.000000
+
+newmtl material_20
+	Kd 0.897592 0.907910 0.907910
+	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
+	d 1.000000
+
+newmtl material_21
+	Kd 0.897592 0.907910 0.907910
+	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
+	d 1.000000
+
+# Object 19 - Floor
+newmtl material_22
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 20 - Block
+newmtl material_23
+	Kd 0.674692 0.684494 0.692282
+	d 1.000000
+
+newmtl material_24
+	Kd 0.674692 0.684494 0.692282
+	d 1.000000
+
+# Object 21 - Block
+newmtl material_25
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.500000 0.531915 1 -o 0.000000 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+newmtl material_26
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.500000 0.531915 1 -o 0.000000 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 22 - Roof
+newmtl material_27
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 1.250000 0.588235 1 -o -0.238550 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 23 - Roof
+newmtl material_28
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 1.250000 0.588235 1 -o 0.000000 0.006192 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 24 - Block
+newmtl material_29
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.500000 0.500000 1 -o 0.000000 -0.005260 0 112_RoofTilesMos.png
+	d 1.000000
+
+newmtl material_30
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.500000 0.500000 1 -o 0.000000 -0.005260 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 25 - Roof
+newmtl material_31
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 1.250000 0.588235 1 -o -0.251678 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 26 - Roof
+newmtl material_32
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 1.250000 0.588235 1 -o -0.322042 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 27 - Wall with door
+newmtl material_33
+	Kd 0.765629 0.774429 0.774429
+	map_Kd -s 4.761905 4.854369 1 -o -0.078927 0.024272 0 BrickWall.jpg
+	d 1.000000
+
+# Object 28 - Wall side
+newmtl material_34
+	Kd 0.765629 0.774429 0.774429
+	map_Kd -s 4.975124 4.854369 1 -o 0.007695 0.006068 0 BrickWall.jpg
+	d 1.000000
+
+# Object 29 - Wall face
+newmtl material_35
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_frontDoor.png
+	d 1.000000
+
+# Object 30 - Sphere
+newmtl material_36
+	Kd 1.000000 1.000000 1.000000
+	d 1.000000
+
+# Object 31 - Cylinder
+newmtl material_37
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+# Object 32 - Cylinder
+newmtl material_38
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+# Object 33 - Cylinder
+newmtl material_39
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+newmtl material_40
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+newmtl material_41
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+# Object 34 - Cylinder
+newmtl material_42
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+newmtl material_43
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+newmtl material_44
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+# Object 35 - Block
+newmtl material_45
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+newmtl material_46
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+newmtl material_47
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+newmtl material_48
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+newmtl material_49
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+newmtl material_50
+	Kd 0.067742 0.067742 0.067742
+	d 1.000000
+
+# Object 36 - Cylinder
+newmtl material_51
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 12.500001 0.111111 1 -o 0.000000 0.000000 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 37 - Wall side
+newmtl material_52
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 0.200000 2.222222 1 -o -0.200000 0.055556 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 38 - Wall side
+newmtl material_53
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 0.200000 2.272727 1 -o 0.140000 0.024351 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 39 - Block
+newmtl material_54
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_doorStep.png
+	d 1.000000
+
+# Object 40 - Ring
+newmtl material_55
+	Kd 0.898765 0.902435 0.913445
+	d 1.000000
+
+# Object 41 - Ring
+newmtl material_56
+	Kd 0.898765 0.902435 0.913445
+	d 1.000000
+
+# Object 42 - Ring
+newmtl material_57
+	Kd 0.000000 0.000000 0.000000
+	d 1.000000
+
+# Object 43 - Ring
+newmtl material_58
+	Kd 0.882805 0.892953 0.892953
+	d 1.000000
+
+# Object 44 - Ring
+newmtl material_59
+	Kd 0.898765 0.902435 0.913445
+	d 1.000000
+
+# Object 45 - Block
+newmtl material_60
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.500000 1.893939 1 -o 0.000000 -0.006070 0 BrickWall.jpg
+	d 1.000000
+
+# Object 46 - Wall face
+newmtl material_61
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_backExtNoLight.png
+	d 1.000000
+
+# Object 47 - Wall side
+newmtl material_62
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_kitchenWindow.png
+	d 1.000000
+
+# Object 48 - Roof
+newmtl material_63
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 0.500000 0.574713 1 -o -0.081761 0.190563 0 BrickWall.jpg
+	d 1.000000
+
+# Object 49 - Wall side
+newmtl material_64
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 0.500000 2.214839 1 -o -0.081761 -0.024272 0 BrickWall.jpg
+	d 1.000000
+
+# Object 50 - Wall side
+newmtl material_65
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_KitchenDoor.png
+	d 1.000000
+
+# Object 51 - Wall face
+newmtl material_66
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_CarPortDoor.png
+	d 1.000000
+
+# Object 52 - Wall face
+newmtl material_67
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 53 - Wall face
+newmtl material_68
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 54 - Wall face
+newmtl material_69
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 55 - Roof
+newmtl material_70
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 56 - Floor
+newmtl material_71
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 25.000000 1.000000 1 -o 0.000000 0.000000 0 112_clearRoof.png
+	d 1.000000
+
+# Object 57 - Wall face
+newmtl material_72
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_FrontRHnoLightDoor.png
+	d 1.000000
+
+# Object 58 - Wall face
+newmtl material_73
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 6.493506 1 -o 0.000000 0.008117 0 Bricks_4x5.png
+	d 1.000000
+
+# Object 59 - Roof
+newmtl material_74
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 2.000000 1.000000 1 -o 0.000000 0.000000 0 BrickWall.jpg
+	d 1.000000
+
+# Object 60 - Wall face
+newmtl material_75
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 1.848429 2.173913 1 -o 0.003883 -0.018116 0 BrickWall.jpg
+	d 1.000000
+
+# Object 61 - Wall face
+newmtl material_76
+	Kd 0.988636 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_BathroomWindowTrim.png
+	d 1.000000
+
+# Object 62 - Wall face
+newmtl material_77
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.769231 2.173913 1 -o 0.000000 -0.018116 0 BrickWall.jpg
+	d 1.000000
+
+# Object 63 - Wall face
+newmtl material_78
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_MusicRoomWindow.png
+	d 1.000000
+
+# Object 64 - Wall side
+newmtl material_79
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 1.000000 2.217295 1 -o 0.085185 -0.027337 0 BrickWall.jpg
+	d 1.000000
+
+# Object 65 - Wall side
+newmtl material_80
+	Kd 0.835102 0.844701 0.844701
+	map_Kd -s 1.000000 2.172968 1 -o 0.000000 -0.024279 0 BrickWall.jpg
+	d 1.000000
+
+# Object 66 - Wall side
+newmtl material_81
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 1.428571 2.172968 1 -o 0.007345 0.006070 0 BrickWall.jpg
+	d 1.000000
+
+# Object 67 - Roof
+newmtl material_82
+	Kd 0.903821 0.703625 0.642090
+	map_Kd -s 0.250000 0.200000 1 -o 0.000000 0.000000 0 112_RoofTilesMos.png
+	d 1.000000
+
+# Object 68 - Wall side
+newmtl material_83
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_BackKitchenWindowTrim.png
+	d 1.000000
+
+# Object 69 - Block
+newmtl material_84
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+newmtl material_85
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+newmtl material_86
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+newmtl material_87
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+newmtl material_88
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+newmtl material_89
+	Kd 0.169001 0.170944 0.170944
+	d 1.000000
+
+# Object 70 - Wall face
+newmtl material_90
+	Kd 0.579598 0.635903 0.657617
+	d 1.000000
+
+# Object 71 - Block
+newmtl material_91
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 72 - Block
+newmtl material_92
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.487427 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 73 - Block
+newmtl material_93
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 74 - Block
+newmtl material_94
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.487427 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 75 - Block
+newmtl material_95
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 76 - Block
+newmtl material_96
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.487427 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 77 - Block
+newmtl material_97
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 78 - Block
+newmtl material_98
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.443115 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 79 - Block
+newmtl material_99
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 80 - Block
+newmtl material_100
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.443115 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 81 - Block
+newmtl material_101
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 82 - Block
+newmtl material_102
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 16.949152 1.000000 1 -o 0.443115 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 83 - Wall face
+newmtl material_103
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_smallVelux2.png
+	d 1.000000
+
+# Object 84 - Wall face
+newmtl material_104
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_smallVelux2.png
+	d 1.000000
+
+# Object 85 - Block
+newmtl material_105
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_106
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_107
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_108
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_109
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_110
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+# Object 86 - Block
+newmtl material_111
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_112
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_113
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_114
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_115
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_116
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+# Object 87 - Wall face
+newmtl material_117
+	Kd 0.555530 0.618018 0.643591
+	d 1.000000
+
+# Object 88 - Wall face
+newmtl material_118
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 0.854701 1 -o 0.000000 0.147167 0 112_largeVelux2.png
+	d 1.000000
+
+# Object 89 - Block
+newmtl material_119
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_120
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_121
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_122
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_123
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_124
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+# Object 90 - Wall face
+newmtl material_125
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 0.854701 1 -o 0.000000 0.147167 0 112_largeVelux2.png
+	d 1.000000
+
+# Object 91 - Block
+newmtl material_126
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_127
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_128
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_129
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_130
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+newmtl material_131
+	Kd 0.557088 0.563492 0.563492
+	d 1.000000
+
+# Object 92 - Roof
+newmtl material_132
+	Kd 0.835102 0.844701 0.844701
+	map_Kd -s 1.250000 0.865052 1 -o -0.249337 0.148856 0 BrickWall.jpg
+	d 1.000000
+
+# Object 93 - Wall side
+newmtl material_133
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_GardenRoomWindow.png
+	d 1.000000
+
+# Object 94 - Block
+newmtl material_134
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_135
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_136
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_137
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_138
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_139
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 95 - Block
+newmtl material_140
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_141
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_142
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_143
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_144
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_145
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 96 - Cylinder
+newmtl material_146
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_147
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_148
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+# Object 97 - Block
+newmtl material_149
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_150
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_151
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_152
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_153
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_154
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 98 - Block
+newmtl material_155
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_156
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_157
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_158
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_159
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_160
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 99 - Block
+newmtl material_161
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_162
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_163
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_164
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_165
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_166
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 100 - Block
+newmtl material_167
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_168
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_169
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_170
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_171
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_172
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 101 - Cylinder
+newmtl material_173
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_174
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_175
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+# Object 102 - Cylinder
+newmtl material_176
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_177
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+newmtl material_178
+	Kd 0.170742 0.170742 0.170742
+	d 1.000000
+
+# Object 103 - Block
+newmtl material_179
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_180
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_181
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_182
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_183
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_184
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 104 - Block
+newmtl material_185
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_186
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_187
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_188
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_189
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+newmtl material_190
+	Kd 0.238524 0.238524 0.238524
+	d 1.000000
+
+# Object 105 - Block
+newmtl material_191
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_192
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_193
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_194
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_195
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_196
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 106 - Block
+newmtl material_197
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_198
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_199
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_200
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_201
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_202
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 107 - Roof
+newmtl material_203
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 108 - Wall face
+newmtl material_204
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 109 - Floor
+newmtl material_205
+	Kd 0.800766 0.809970 0.809970
+	d 1.000000
+
+# Object 110 - Wall face
+newmtl material_206
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 111 - Block
+newmtl material_207
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_208
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_209
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_210
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_211
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_212
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 112 - Block
+newmtl material_213
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_214
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_215
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_216
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_217
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_218
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 113 - Block
+newmtl material_219
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_220
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_221
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_222
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_223
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_224
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 114 - Block
+newmtl material_225
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_226
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_227
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_228
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_229
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_230
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 115 - Block
+newmtl material_231
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_232
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_233
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_234
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_235
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_236
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 116 - Block
+newmtl material_237
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_238
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_239
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_240
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_241
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_242
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 117 - Block
+newmtl material_243
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_244
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_245
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_246
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_247
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_248
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 118 - Block
+newmtl material_249
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_250
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_251
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_252
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_253
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_254
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 119 - Block
+newmtl material_255
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_256
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_257
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_258
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_259
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_260
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 120 - Block
+newmtl material_261
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_262
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_263
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_264
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_265
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_266
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 121 - Block
+newmtl material_267
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_268
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_269
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_270
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_271
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_272
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 122 - Block
+newmtl material_273
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_274
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_275
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_276
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_277
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+newmtl material_278
+	Kd 0.916141 0.926672 0.926672
+	d 1.000000
+
+# Object 123 - Block
+newmtl material_279
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_280
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_281
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_282
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_283
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+newmtl material_284
+	Kd 0.890269 0.900502 0.900502
+	d 1.000000
+
+# Object 124 - Block
+newmtl material_285
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_286
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_287
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_288
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_289
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_290
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+# Object 125 - Block
+newmtl material_291
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_292
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_293
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_294
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_295
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+newmtl material_296
+	Kd 0.880927 0.884524 0.895316
+	d 1.000000
+
+# Object 126 - Block
+newmtl material_297
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_298
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_299
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_300
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_301
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_302
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+# Object 127 - Block
+newmtl material_303
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_304
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_305
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_306
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_307
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_308
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+# Object 128 - Block
+newmtl material_309
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_310
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_311
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_312
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_313
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_314
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+# Object 129 - Block
+newmtl material_315
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_316
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_317
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_318
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_319
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+newmtl material_320
+	Kd 0.092900 0.092900 0.092900
+	d 1.000000
+
+# Object 130 - Block
+newmtl material_321
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.500000 1.893939 1 -o 0.000000 -0.006070 0 BrickWall.jpg
+	d 1.000000
+
+# Object 131 - Roof
+newmtl material_322
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.500000 0.478469 1 -o 0.500000 -0.096905 0 BrickWall.jpg
+	d 1.000000
+
+# Object 132 - Roof
+newmtl material_323
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.500000 0.478469 1 -o 0.500000 -0.096905 0 BrickWall.jpg
+	d 1.000000
+
+# Object 133 - Block
+newmtl material_324
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.331126 2.493766 1 -o -0.170038 -0.378028 0 BrickWall.jpg
+	d 1.000000
+
+# Object 134 - Block
+newmtl material_325
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.328947 2.493766 1 -o 0.000000 -0.377566 0 BrickWall.jpg
+	d 1.000000
+
+# Object 135 - Wall side
+newmtl material_326
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_triWindowTrim.png
+	d 1.000000
+
+# Object 136 - Wall side
+newmtl material_327
+	Kd 0.765629 0.774429 0.774429
+	map_Kd -s 0.555556 3.081664 1 -o -0.551671 0.006066 0 BrickWall.jpg
+	d 1.000000
+
+# Object 137 - Roof
+newmtl material_328
+	Kd 0.765629 0.774429 0.774429
+	map_Kd -s 0.526316 0.316456 1 -o -0.518955 0.088242 0 BrickWall.jpg
+	d 1.000000
+
+# Object 138 - Block
+newmtl material_329
+	Kd 0.909788 0.913399 0.923676
+	map_Kd -s 1.000000 5.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 139 - Block
+newmtl material_330
+	Kd 0.909788 0.913399 0.923676
+	map_Kd -s 1.000000 5.000000 1 -o 0.000000 0.000000 0 112_ExtTile.png
+	d 1.000000
+
+# Object 140 - Wall face
+newmtl material_331
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.142857 0.476191 1 -o 0.708929 -0.096444 0 BrickWall.jpg
+	d 1.000000
+
+# Object 141 - Wall face
+newmtl material_332
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.142857 0.476191 1 -o 0.500000 0.898131 0 BrickWall.jpg
+	d 1.000000
+
+# Object 142 - Block
+newmtl material_333
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.328947 2.493766 1 -o 0.000000 -0.405810 0 BrickWall.jpg
+	d 1.000000
+
+# Object 143 - Block
+newmtl material_334
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 0.328947 2.493766 1 -o 0.000000 -0.405810 0 BrickWall.jpg
+	d 1.000000
+
+# Object 144 - Floor
+newmtl material_335
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 145 - Floor
+newmtl material_336
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 146 - Floor
+newmtl material_337
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 147 - Floor
+newmtl material_338
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 148 - Floor
+newmtl material_339
+	Kd 0.776414 0.785338 0.785338
+	d 1.000000
+
+# Object 149 - Block
+newmtl material_340
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_341
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_342
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_343
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_344
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_345
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 150 - Block
+newmtl material_346
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_347
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_348
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_349
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_350
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_351
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 151 - Block
+newmtl material_352
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_353
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_354
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_355
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_356
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_357
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 152 - Block
+newmtl material_358
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_359
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_360
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_361
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_362
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_363
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 153 - Block
+newmtl material_364
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_365
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_366
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_367
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_368
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_369
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 154 - Floor
+newmtl material_370
+	Kd 0.835102 0.844701 0.844701
+	d 1.000000
+
+# Object 155 - Wall face
+newmtl material_371
+	Kd 0.771192 0.780056 0.780056
+	d 1.000000
+
+# Object 156 - Floor
+newmtl material_372
+	Kd 0.835102 0.844701 0.844701
+	d 1.000000
+
+# Object 157 - Floor
+newmtl material_373
+	Kd 0.835102 0.844701 0.844701
+	d 1.000000
+
+# Object 158 - Floor
+newmtl material_374
+	Kd 0.835102 0.844701 0.844701
+	d 1.000000
+
+# Object 159 - Wall face
+newmtl material_375
+	Kd 0.771192 0.780056 0.780056
+	d 1.000000
+
+# Object 160 - Floor
+newmtl material_376
+	Kd 0.835102 0.844701 0.844701
+	d 1.000000
+
+# Object 161 - Block
+newmtl material_377
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_378
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_379
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_380
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_381
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_382
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 162 - Block
+newmtl material_383
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_384
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_385
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_386
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_387
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+newmtl material_388
+	Kd 0.146711 0.148397 0.148397
+	d 1.000000
+
+# Object 163 - Block
+newmtl material_389
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+newmtl material_390
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+newmtl material_391
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+newmtl material_392
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+newmtl material_393
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+newmtl material_394
+	Kd 0.872921 0.876485 0.887178
+	d 1.000000
+
+# Object 164 - Block
+newmtl material_395
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+newmtl material_396
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+newmtl material_397
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+newmtl material_398
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+newmtl material_399
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+newmtl material_400
+	Kd 0.963093 0.967026 0.978823
+	d 1.000000
+
+# Object 165 - Triangle with curve
+newmtl material_401
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+newmtl material_402
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+newmtl material_403
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+# Object 166 - Triangle with curve
+newmtl material_404
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+newmtl material_405
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+newmtl material_406
+	Kd 0.124332 0.124332 0.124332
+	d 1.000000
+
+# Object 167 - Roof
+newmtl material_407
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+# Object 168 - Wall side
+newmtl material_408
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_LandingWindow.png
+	d 1.000000
+
+# Object 169 - Wall side
+newmtl material_409
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_ToiletWindow.png
+	d 1.000000
+
+# Object 170 - Wall with door
+newmtl material_410
+	Kd 0.633511 0.636098 0.643858
+	d 1.000000
+
+# Object 171 - Block
+newmtl material_411
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_412
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_413
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_414
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_415
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_416
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+# Object 172 - Block
+newmtl material_417
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_418
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_419
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_420
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_421
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+newmtl material_422
+	Kd 0.200696 0.200696 0.200696
+	d 1.000000
+
+# Object 173 - Block
+newmtl material_423
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+newmtl material_424
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+newmtl material_425
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+newmtl material_426
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+newmtl material_427
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+newmtl material_428
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+# Object 174 - Block
+newmtl material_429
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+newmtl material_430
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+newmtl material_431
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+newmtl material_432
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+newmtl material_433
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+newmtl material_434
+	Kd 0.140108 0.141718 0.141718
+	d 1.000000
+
+# Object 175 - Cylinder
+newmtl material_435
+	Kd 0.586839 0.595365 0.602139
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 176 - Cylinder
+newmtl material_436
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 177 - Torus
+newmtl material_437
+	Kd 0.684370 0.692236 0.692236
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 178 - Torus
+newmtl material_438
+	Kd 0.740257 0.748765 0.748765
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 179 - Cylinder
+newmtl material_439
+	Kd 0.694194 0.702174 0.702174
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 180 - Cylinder
+newmtl material_440
+	Kd 0.694194 0.702174 0.702174
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 181 - Cylinder
+newmtl material_441
+	Kd 0.694194 0.702174 0.702174
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 182 - Torus
+newmtl material_442
+	Kd 0.740257 0.748765 0.748765
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 183 - Torus
+newmtl material_443
+	Kd 0.684370 0.692236 0.692236
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 184 - Cylinder
+newmtl material_444
+	Kd 0.694194 0.702174 0.702174
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 185 - Cylinder
+newmtl material_445
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 186 - Torus
+newmtl material_446
+	Kd 0.684370 0.692236 0.692236
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 187 - Cylinder
+newmtl material_447
+	Kd 0.694194 0.702174 0.702174
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 188 - Torus
+newmtl material_448
+	Kd 0.684370 0.692236 0.692236
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 189 - Cylinder
+newmtl material_449
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 190 - Cylinder
+newmtl material_450
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 191 - Cylinder
+newmtl material_451
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 192 - Torus
+newmtl material_452
+	Kd 0.684370 0.692236 0.692236
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 193 - Cylinder
+newmtl material_453
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 194 - Cylinder
+newmtl material_454
+	Kd 0.535835 0.543620 0.549805
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_455
+	Kd 0.535835 0.543620 0.549805
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_456
+	Kd 0.535835 0.543620 0.549805
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 195 - Torus
+newmtl material_457
+	Kd 0.521810 0.529391 0.535415
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 196 - Torus
+newmtl material_458
+	Kd 0.530750 0.538461 0.544588
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 197 - Cylinder
+newmtl material_459
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_460
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_461
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 198 - Cylinder
+newmtl material_462
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_463
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_464
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 199 - Torus
+newmtl material_465
+	Kd 0.521810 0.529391 0.535415
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 200 - Cylinder
+newmtl material_466
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_467
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_468
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 201 - Torus
+newmtl material_469
+	Kd 0.530750 0.538461 0.544588
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 202 - Cylinder
+newmtl material_470
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_471
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_472
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 203 - Cylinder
+newmtl material_473
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_474
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_475
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 204 - Cylinder
+newmtl material_476
+	Kd 0.497720 0.503441 0.503441
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_477
+	Kd 0.497720 0.503441 0.503441
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_478
+	Kd 0.497720 0.503441 0.503441
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 205 - Cone
+newmtl material_479
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 206 - Torus
+newmtl material_480
+	Kd 0.530750 0.538461 0.544588
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 207 - Cylinder
+newmtl material_481
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 0.022222 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_482
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 0.022222 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_483
+	Kd 0.563832 0.570312 0.570312
+	map_Kd -s 1.000000 0.022222 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 208 - Torus
+newmtl material_484
+	Kd 0.521810 0.529391 0.535415
+	map_Kd -s 1.000000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 209 - Cylinder
+newmtl material_485
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 2.108326 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_486
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 2.108326 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_487
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 2.108326 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 210 - Torus
+newmtl material_488
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 211 - Torus
+newmtl material_489
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 212 - Cylinder
+newmtl material_490
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 0.188889 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_491
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 0.188889 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_492
+	Kd 0.441033 0.446102 0.446102
+	map_Kd -s 1.000000 0.188889 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 213 - Cylinder
+newmtl material_493
+	Kd 0.557068 0.563472 0.563472
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 214 - Torus
+newmtl material_494
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 215 - Torus
+newmtl material_495
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-8.png
+	d 1.000000
+
+# Object 216 - Cylinder
+newmtl material_496
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.868216 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_497
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.868216 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_498
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 1.868216 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 217 - Torus
+newmtl material_499
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 218 - Torus
+newmtl material_500
+	Kd 0.470427 0.475834 0.475834
+	map_Kd -s 0.625000 0.500000 1 -o 0.000000 0.000000 0 ScratchyBlackPlastic1-16.png
+	d 1.000000
+
+# Object 219 - Cylinder
+newmtl material_501
+	Kd 0.551146 0.557481 0.557481
+	map_Kd -s 1.000000 0.021944 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_502
+	Kd 0.551146 0.557481 0.557481
+	map_Kd -s 1.000000 0.021944 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_503
+	Kd 0.551146 0.557481 0.557481
+	map_Kd -s 1.000000 0.021944 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 220 - Cylinder
+newmtl material_504
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 0.055556 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_505
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 0.055556 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+newmtl material_506
+	Kd 0.518350 0.524308 0.524308
+	map_Kd -s 1.000000 0.055556 1 -o 0.000000 0.000000 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 221 - Block
+newmtl material_507
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+newmtl material_508
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+newmtl material_509
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+newmtl material_510
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+newmtl material_511
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+newmtl material_512
+	Kd 0.223810 0.224723 0.227465
+	d 1.000000
+
+# Object 222 - Cylinder
+newmtl material_513
+	Kd 0.200529 0.201348 0.203804
+	d 1.000000
+
+# Object 223 - Cylinder
+newmtl material_514
+	Kd 0.252137 0.253166 0.256255
+	d 1.000000
+
+newmtl material_515
+	Kd 0.252137 0.253166 0.256255
+	d 1.000000
+
+newmtl material_516
+	Kd 0.252137 0.253166 0.256255
+	d 1.000000
+
+# Object 224 - Cylinder
+newmtl material_517
+	Kd 0.227434 0.228363 0.231149
+	d 1.000000
+
+newmtl material_518
+	Kd 0.227434 0.228363 0.231149
+	d 1.000000
+
+newmtl material_519
+	Kd 0.227434 0.228363 0.231149
+	d 1.000000
+
+# Object 225 - Block
+newmtl material_520
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+newmtl material_521
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+newmtl material_522
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+newmtl material_523
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+newmtl material_524
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+newmtl material_525
+	Kd 0.237531 0.238500 0.241410
+	d 1.000000
+
+# Object 226 - Sphere
+newmtl material_526
+	Kd 0.999996 1.000000 1.000000
+	d 1.000000
+
+# Object 227 - Ring
+newmtl material_527
+	Kd 0.202740 0.203567 0.206051
+	d 1.000000
+
+# Object 228 - Ring
+newmtl material_528
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 229 - Ring
+newmtl material_529
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 230 - Ring
+newmtl material_530
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 231 - Ring
+newmtl material_531
+	Kd 0.685505 0.695465 0.703378
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 232 - Ring
+newmtl material_532
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 233 - Ring
+newmtl material_533
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 234 - Ring
+newmtl material_534
+	Kd 0.611789 0.614288 0.621782
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 235 - Ring
+newmtl material_535
+	Kd 0.611789 0.614288 0.621782
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 236 - Ring
+newmtl material_536
+	Kd 0.592165 0.600768 0.607604
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 237 - Ring
+newmtl material_537
+	Kd 0.806250 0.817963 0.827270
+	map_Kd -s nan nan 1 -o nan nan 0 ScratchyBlackPlasticLong.png
+	d 1.000000
+
+# Object 238 - Cylinder
+newmtl material_538
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 12.000480 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 239 - Cylinder
+newmtl material_539
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 12.000480 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 240 - Cylinder
+newmtl material_540
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 12.000480 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 241 - Cylinder
+newmtl material_541
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 5.999880 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 242 - Cylinder
+newmtl material_542
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 4.452161 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 243 - Cylinder
+newmtl material_543
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 5.926277 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 244 - Cylinder
+newmtl material_544
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 5.926277 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 245 - Ring
+newmtl material_545
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s nan nan 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 246 - Ring
+newmtl material_546
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s nan nan 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 247 - Ring
+newmtl material_547
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s nan nan 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 248 - Ring
+newmtl material_548
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s nan nan 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 249 - Ring
+newmtl material_549
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s nan nan 1 -o nan nan 0 112_ExtTile.png
+	d 1.000000
+
+# Object 250 - Wall side
+newmtl material_550
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_kitchenWindow.png
+	d 1.000000
+

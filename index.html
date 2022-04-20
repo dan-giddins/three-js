@@ -175,162 +175,162 @@
       //const sphTubeMaterial = mtlLoader.load("obj/SphTube/SphTube.mtl");
       //var sphTubeMaterial;
       // object
-      const objLoader = new OBJLoader();
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = lineBasicMaterial;
-          }
-        });
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = lineDashedMaterial;
-          }
-        });
-        object.position.x += 100;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshBasicWireframeMaterial;
-          }
-        });
-        object.position.x += 200;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshBasicMaterial;
-          }
-        });
-        object.position.x += 300;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshDepthMaterial;
-          }
-        });
-        object.position.x += 400;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshDistanceMaterial;
-          }
-        });
-        object.position.x += 500;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshLambertMaterial;
-          }
-        });
-        object.position.x += 600;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = MeshMatcapMaterial;
-          }
-        });
-        object.position.x += 700;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = MeshNormalMaterial;
-          }
-        });
-        object.position.x += 800;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshPhongMaterial;
-          }
-        });
-        object.position.x += 900;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshPhysicalMaterial;
-          }
-        });
-        object.position.x += 1000;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshStandardMaterial;
-          }
-        });
-        object.position.x = 1100;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = meshToonMaterial;
-          }
-        });
-        object.position.x += 1200;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = pointsMaterial;
-          }
-        });
-        object.position.x += 1300;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = shaderMaterial;
-          }
-        });
-        object.position.x += 1500;
-        scene.add(object);
-      });
-      objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-            child.material = shadowMaterial;
-          }
-        });
-        object.position.x += 1600;
-        scene.add(object);
-      });
-      objLoader.load(
-        "obj/Tree/Buzok_01_uv_dev1_UVtex_bigfromZB_comb_01.obj",
-        function (object) {
-          object.traverse(function (child) {
-            if (child instanceof THREE.Mesh) {
-              child.material = treeMaterial;
-            }
-          });
-          object.scale.set(10, 10, 10);
-          scene.add(object);
-        }
-      );
+      // const objLoader = new OBJLoader();
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = lineBasicMaterial;
+      //     }
+      //   });
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = lineDashedMaterial;
+      //     }
+      //   });
+      //   object.position.x += 100;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshBasicWireframeMaterial;
+      //     }
+      //   });
+      //   object.position.x += 200;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshBasicMaterial;
+      //     }
+      //   });
+      //   object.position.x += 300;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshDepthMaterial;
+      //     }
+      //   });
+      //   object.position.x += 400;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshDistanceMaterial;
+      //     }
+      //   });
+      //   object.position.x += 500;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshLambertMaterial;
+      //     }
+      //   });
+      //   object.position.x += 600;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = MeshMatcapMaterial;
+      //     }
+      //   });
+      //   object.position.x += 700;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = MeshNormalMaterial;
+      //     }
+      //   });
+      //   object.position.x += 800;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshPhongMaterial;
+      //     }
+      //   });
+      //   object.position.x += 900;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshPhysicalMaterial;
+      //     }
+      //   });
+      //   object.position.x += 1000;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshStandardMaterial;
+      //     }
+      //   });
+      //   object.position.x = 1100;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = meshToonMaterial;
+      //     }
+      //   });
+      //   object.position.x += 1200;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = pointsMaterial;
+      //     }
+      //   });
+      //   object.position.x += 1300;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = shaderMaterial;
+      //     }
+      //   });
+      //   object.position.x += 1500;
+      //   scene.add(object);
+      // });
+      // objLoader.load("obj/CarvedTable/CarvedTable.obj", function (object) {
+      //   object.traverse(function (child) {
+      //     if (child instanceof THREE.Mesh) {
+      //       child.material = shadowMaterial;
+      //     }
+      //   });
+      //   object.position.x += 1600;
+      //   scene.add(object);
+      // });
+      // objLoader.load(
+      //   "obj/Tree/Buzok_01_uv_dev1_UVtex_bigfromZB_comb_01.obj",
+      //   function (object) {
+      //     object.traverse(function (child) {
+      //       if (child instanceof THREE.Mesh) {
+      //         child.material = treeMaterial;
+      //       }
+      //     });
+      //     object.scale.set(10, 10, 10);
+      //     scene.add(object);
+      //   }
+      // );
       // objLoader.load(
       //   "obj/Log/Log_on_the_beach_scan_21_.obj",
       //   function (object) {
@@ -357,48 +357,48 @@
       //   //object.position.y += 50;
       //   scene.add(object);
       // });
-      mtlLoader.load(
-        "obj/SphTube/SphTube-dad.mtl",
-        (materials) => {
-          materials.preload();
-          objLoader.setMaterials(materials);
-          objLoader.load("obj/SphTube/SphTube.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            object.position.x += 50;
-            //object.position.y += 50;
-            scene.add(object);
-          });
-        }
-      );
-      const danObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/Dan/Dan.mtl",
-        (materials) => {
-          materials.preload();
-          danObjLoader.setMaterials(materials);
-          danObjLoader.load("obj/Dan/Dan.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            object.position.x -= 300;
-            //object.position.y += 50;
-            scene.add(object);
-          });
-        }
-      );
-      const t12ObjLoader = new OBJLoader();
-      mtlLoader.load(
-        "obj/T12/T12.mtl",
-        (materials) => {
-          materials.preload();
-          t12ObjLoader.setMaterials(materials);
-          t12ObjLoader.load("obj/T12/T12.obj", function (object) {
-            object.scale.set(10, 10, 10);
-            object.position.x -= 300;
-            //object.position.y += 50;
-            object.position.z += 100;
-            scene.add(object);
-          });
-        }
-      );
+      // mtlLoader.load(
+      //   "obj/SphTube/SphTube-dad.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     objLoader.setMaterials(materials);
+      //     objLoader.load("obj/SphTube/SphTube.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       object.position.x += 50;
+      //       //object.position.y += 50;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const danObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/Dan/Dan.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     danObjLoader.setMaterials(materials);
+      //     danObjLoader.load("obj/Dan/Dan.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const t12ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/T12/T12.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     t12ObjLoader.setMaterials(materials);
+      //     t12ObjLoader.load("obj/T12/T12.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 100;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
       // const ttObjLoader = new OBJLoader();
       // mtlLoader.load(
       //   "obj/TT/TT.mtl",
@@ -528,6 +528,7 @@
       // mtlLoader.load(
       //   "obj/TT7/TT7.mtl",
       //   (materials) => {
+      //     materials.side = THREE.DoubleSide;
       //     materials.preload();
       //     tt7ObjLoader.setMaterials(materials);
       //     tt7ObjLoader.load("obj/TT7/TT7.obj", function (object) {
@@ -614,13 +615,43 @@
       //     });
       //   }
       // );
-      const sphRotObjLoader = new OBJLoader();
+      // const sphRotObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/SphRot/SphRot.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     sphRotObjLoader.setMaterials(materials);
+      //     sphRotObjLoader.load("obj/SphRot/SphRot.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      // const blk4ObjLoader = new OBJLoader();
+      // mtlLoader.load(
+      //   "obj/Blk4/Blk4.mtl",
+      //   (materials) => {
+      //     materials.preload();
+      //     blk4ObjLoader.setMaterials(materials);
+      //     blk4ObjLoader.load("obj/Blk4/Blk4.obj", function (object) {
+      //       object.scale.set(10, 10, 10);
+      //       //object.position.x -= 300;
+      //       //object.position.y += 50;
+      //       object.position.z += 400;
+      //       scene.add(object);
+      //     });
+      //   }
+      // );
+      const house112ObjLoader = new OBJLoader();
       mtlLoader.load(
-        "obj/SphRot/SphRot.mtl",
+        "obj/House_112/House_112.mtl",
         (materials) => {
           materials.preload();
-          sphRotObjLoader.setMaterials(materials);
-          sphRotObjLoader.load("obj/SphRot/SphRot.obj", function (object) {
+          house112ObjLoader.setMaterials(materials);
+          house112ObjLoader.load("obj/House_112/House_112.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
