@@ -1,0 +1,13 @@
+# 3DCanvas MMCG MTL File: HoleTest.mtl
+
+# Object 1 - Wall face
+newmtl material_1
+	Kd 0.000000 0.991439 1.000000
+	d 1.000000
+
+# Object 2 - Wall face
+newmtl material_2
+	Kd 0.999996 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 MagHole.png
+	d 1.000000
+

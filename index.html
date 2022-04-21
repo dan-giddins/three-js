@@ -652,6 +652,26 @@
           materials.preload();
           house112ObjLoader.setMaterials(materials);
           house112ObjLoader.load("obj/House_112/House_112.obj", function (object) {
+            object.traverse( function( node ) {
+                if( node.material ) {
+                  node.material.side = THREE.DoubleSide;
+                }
+            });
+            object.scale.set(10, 10, 10);
+            //object.position.x -= 300;
+            //object.position.y += 50;
+            //object.position.z += 400;
+            scene.add(object);
+          });
+        }
+      );
+      const holeTestObjLoader = new OBJLoader();
+      mtlLoader.load(
+        "obj/HoleTest/HoleTest.mtl",
+        (materials) => {
+          materials.preload();
+          holeTestObjLoader.setMaterials(materials);
+          holeTestObjLoader.load("obj/HoleTest/HoleTest.obj", function (object) {
             object.scale.set(10, 10, 10);
             //object.position.x -= 300;
             //object.position.y += 50;
