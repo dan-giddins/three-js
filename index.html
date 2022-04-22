@@ -654,6 +654,8 @@
           house112ObjLoader.load("obj/House_112/House_112.obj", function (object) {
             object.traverse( function( node ) {
                 if( node.material ) {
+                  node.material.transparent = true
+                  material.needsUpdate = true
                   node.material.side = THREE.DoubleSide;
                 }
             });
