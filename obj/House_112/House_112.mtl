@@ -3,13 +3,13 @@
 # Object 1 - Cylinder
 newmtl material_1
 	Kd 1.000000 1.000000 1.000000
-	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -1315032644448111122448384.000000 0 Bricks_4x5.png
+	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -0.000000 0 Bricks_4x5.png
 	d 1.000000
 
 # Object 2 - Cylinder
 newmtl material_2
 	Kd 1.000000 1.000000 1.000000
-	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -1315032644448111122448384.000000 0 Bricks_4x5.png
+	map_Kd -s 5.000000 1.000000 1 -o 0.000000 -0.000000 0 Bricks_4x5.png
 	d 1.000000
 
 # Object 3 - Wall face
@@ -92,13 +92,12 @@ newmtl material_16
 	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_HighWindow.png
 	d 1.000000
 
-# Object 17 - Wall face
+# Object 17 - Block
 newmtl material_17
-	Kd 1.000000 1.000000 1.000000
-	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_BargeFront.png
-	d 0.000000
+	Kd 0.897592 0.907910 0.907910
+	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
+	d 1.000000
 
-# Object 18 - Block
 newmtl material_18
 	Kd 0.897592 0.907910 0.907910
 	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
@@ -114,10 +113,11 @@ newmtl material_20
 	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
 	d 1.000000
 
+# Object 18 - Wall face
 newmtl material_21
-	Kd 0.897592 0.907910 0.907910
-	map_Kd -s 1.333333 1.000000 1 -o 0.176010 0.000000 0 112_GableFace.png
-	d 1.000000
+	Kd 1.000000 1.000000 1.000000
+	map_Kd -s 1.000000 1.000000 1 -o 0.000000 0.000000 0 112_BargeFront.png
+	d 0.000000
 
 # Object 19 - Floor
 newmtl material_22
@@ -147,13 +147,13 @@ newmtl material_26
 # Object 22 - Roof
 newmtl material_27
 	Kd 0.903821 0.703625 0.642090
-	map_Kd -s 1.250000 0.588235 1 -o -0.238550 0.000000 0 112_RoofTilesMos.png
+	map_Kd -s 1.250000 1.001987 1 -o -0.238550 0.000000 0 112_RoofTilesMos.png
 	d 1.000000
 
 # Object 23 - Roof
 newmtl material_28
 	Kd 0.903821 0.703625 0.642090
-	map_Kd -s 1.250000 0.588235 1 -o 0.000000 0.006192 0 112_RoofTilesMos.png
+	map_Kd -s 1.250000 1.001987 1 -o 0.000000 0.006192 0 112_RoofTilesMos.png
 	d 1.000000
 
 # Object 24 - Block
@@ -170,19 +170,19 @@ newmtl material_30
 # Object 25 - Roof
 newmtl material_31
 	Kd 0.903821 0.703625 0.642090
-	map_Kd -s 1.250000 0.588235 1 -o -0.251678 0.000000 0 112_RoofTilesMos.png
+	map_Kd -s 1.250000 1.001987 1 -o -0.251678 0.000000 0 112_RoofTilesMos.png
 	d 1.000000
 
 # Object 26 - Roof
 newmtl material_32
 	Kd 0.903821 0.703625 0.642090
-	map_Kd -s 1.250000 0.588235 1 -o -0.322042 0.000000 0 112_RoofTilesMos.png
+	map_Kd -s 1.250000 1.001987 1 -o -0.322042 0.000000 0 112_RoofTilesMos.png
 	d 1.000000
 
 # Object 27 - Wall with door
 newmtl material_33
 	Kd 0.765629 0.774429 0.774429
-	map_Kd -s 4.761905 4.854369 1 -o -0.078927 0.024272 0 BrickWall.jpg
+	map_Kd -s 4.761905 4.854369 1 -o -0.069061 0.060680 0 BrickWall.jpg
 	d 1.000000
 
 # Object 28 - Wall side
@@ -443,7 +443,7 @@ newmtl material_81
 # Object 67 - Roof
 newmtl material_82
 	Kd 0.903821 0.703625 0.642090
-	map_Kd -s 0.250000 0.200000 1 -o 0.000000 0.000000 0 112_RoofTilesMos.png
+	map_Kd -s 0.250000 0.389897 1 -o 0.000000 0.000000 0 112_RoofTilesMos.png
 	d 1.000000
 
 # Object 68 - Wall side
